@@ -79,12 +79,13 @@ console.log(name.indexOf("i"));
 console.log(name.lastIndexOf("a"));
 console.log(name.search("ana"));
 console.log(name.match("ana"));
+console.log(name.includes("jana"));
+console.log(name.includes("ravi"));
 let sentence="java is cool.javascript is awesome.JAVA";
 console.log(sentence.match("java"));
 console.log(sentence.match(/java/g));
 
 console.log(sentence.match(/java/gi));
-console.log(name.includes("jana"));
 
 
 
