@@ -78,7 +78,6 @@ console.log(name.slice(2,5));
 console.log(name.indexOf("i"));
 console.log(name.lastIndexOf("a"));
 console.log(name.search("ana"));
-console.log(name.search("ann"));
 console.log(name.match("ana"));
 let sentence="java is cool.javascript is awesome.JAVA";
 console.log(sentence.match("java"));
