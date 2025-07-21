@@ -81,6 +81,7 @@ console.log(name.search("ana"));
 console.log(name.match("ana"));
 console.log(name.includes("jana"));
 console.log(name.includes("ravi"));
+console.log(name.includes("rvi"));
 let sentence="java is cool.javascript is awesome.JAVA";
 console.log(sentence.match("java"));
 console.log(sentence.match(/java/g));
