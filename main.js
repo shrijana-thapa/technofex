@@ -87,7 +87,24 @@ console.log(sentence.match("java"));
 console.log(sentence.match(/java/g));
 
 console.log(sentence.match(/java/gi));
+let poem = `
+Roses are red,
+Violets are blue,
+JavaScript is fun,
+And so are you!
+`;
 
+console.log(poem);
+
+let age= parseFloat('5');
+let number= parseInt('9.5');
+console.log(age);
+console.log(number);
+let parseName=parseInt("shrijana");
+console.log(parseName);
+console.log(isNaN(parseName));
+
+let array=['1', '2', '3', '4', '5'];
 
 
 
