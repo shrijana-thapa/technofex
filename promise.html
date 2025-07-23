@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cookie Game 🍪</title>
+  </head>
+  <body>
+    <h1>Welcome to the Cookie Game! 🍪</h1>
+    <button onclick="startGame()">Bake Cookie</button>
+
+    <script>
+      function bakeCookie() {
+        return new Promise((resolve) => {
+          setTimeout(() => {
+            resolve("🍪 Cookie is ready!");
+          }, 3000); // Wait for 3 seconds
+        });
+      }
+
+      async function startGame() {
+        alert("🔄 Putting the cookie in the oven...");
+
+        let result = await bakeCookie(); // Wait here like a patient baby 🍼
+
+        alert(result); // When cookie is ready
+        alert("😋 Yum! That was delicious!");
+      }
+    </script>
+  </body>
+</html>

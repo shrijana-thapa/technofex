@@ -30,3 +30,4 @@ for( let value of keys){
 }
 console.log(arrayExample.lastIndexOf(3));
 console.log(numbers.reduce((product,num) =>product* num,1));
+
